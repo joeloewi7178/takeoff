@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/feed_nav_graph"
+        android:icon="@drawable/ic_baseline_dynamic_feed_24"
+        android:title="소식"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/calendar_nav_graph"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
+        android:title="일정"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/chat_nav_graph"
+        android:icon="@drawable/ic_baseline_chat_24"
+        android:title="대화"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/profile_nav_graph"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="내 정보"
+        app:showAsAction="ifRoom" />
+</menu>
