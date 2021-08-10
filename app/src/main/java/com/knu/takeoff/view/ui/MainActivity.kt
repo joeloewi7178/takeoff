@@ -90,7 +90,7 @@ fun Navigation(navController: NavHostController) {
             ChatScreen(NavigationItem.Chat.title)
         }
         composable(NavigationItem.Person.route) {
-            PersonScreen(NavigationItem.Chat.title)
+            PersonScreen(NavigationItem.Person.title)
         }
     }
 }
