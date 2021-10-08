@@ -14,10 +14,6 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="SplashTheme" parent="Theme.Takeoff">
-        <item name="android:windowBackground">@drawable/splash</item>
-    </style>
-
     <style name="Theme.Takeoff.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
@@ -26,4 +22,10 @@
     <style name="Theme.Takeoff.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Takeoff.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.AppSplash" parent="Theme.SplashScreen">
+        <item name="postSplashScreenTheme">@style/Theme.Takeoff</item>
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_foreground</item>
+    </style>
 </resources>

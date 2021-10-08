@@ -8,12 +8,12 @@ plugins {
 }
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 31
 
     defaultConfig {
         applicationId "com.knu.takeoff"
         minSdkVersion 21
-        targetSdkVersion 30
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
@@ -114,6 +114,7 @@ dependencies {
     implementation "androidx.work:work-runtime-ktx:$work_version"
     androidTestImplementation "androidx.work:work-testing:$work_version"
 
+    implementation("androidx.core:core-splashscreen:1.0.0-alpha02")
 
     implementation("androidx.compose.ui:ui:1.0.0")
     // Tooling support (Previews, etc.)
